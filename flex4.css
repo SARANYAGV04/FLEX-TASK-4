@@ -1,0 +1,65 @@
+body{
+   font-family: 'Times New Roman', Times, serif;
+   margin: 10px;
+   
+}
+#head{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    margin:10px;
+}
+#head>div{
+    padding: 10px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+#middle{
+   display: flex;
+   flex-wrap: nowrap;
+}
+.one{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   width: 30%;
+   background-color: cyan;
+   margin:10px;
+}
+.two{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+    width: 30%;
+    background-color: cyan;
+    margin:10px;
+}
+.three{
+    display: flex;
+   flex-wrap: nowrap;
+   padding: 10px;
+   width: 40%;
+   flex-direction: column;
+     background-color: cyan;
+   margin:10px;
+   text-align: center;
+
+}
+.span{
+     /* flex-direction: row; */
+    background-color: white;
+    align-items: center;
+    
+    margin-top: 30px;
+}
+#span1{
+        margin: 10px;
+
+}
+.para{
+        text-align: justify;
+    margin: 10px;
+}
